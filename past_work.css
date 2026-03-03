@@ -1,14 +1,33 @@
 .header{
-    color: white;
+    color: black;
     font-size: 20px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .projects{
     display: flex;
-    align-content: space-between;
-    color: white;
+    align-content:space-between;
+    color: black;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
+}
 
+.images{
+    display: flex;
+    background-color: black;
+    padding: 10px;
+    align-content: space-between;
+    align-content: center;
+}
+
+.python{
+    align-content: center;
+    padding:10px;
+    display: flex;
+}
+
+.code{
+    padding: 10px;
+    align-content: center;
+    display: flex;
 }
