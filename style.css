@@ -1,14 +1,16 @@
 
+
 .header{
+    font-family: "Drakalligro";
     color: black;
     font-size: 20px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .section{
     display: flex;
     justify-content: flex-start;
     background-color: black;
+    border-radius: 40px;
 }
 
 .links{
@@ -23,5 +25,6 @@
     height: 100px;
     word-spacing: 2px;
     background-color:rgb(230, 200, 164);
+    border-radius:40px ;
 }
 

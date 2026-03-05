@@ -1,0 +1,35 @@
+
+
+.header{
+    color: black;
+    font-size: 20px;
+    font-family:drakalligro;
+}
+
+.experience{
+    display: flex;
+    padding-right: 685px;
+    background-color: black;
+    border-radius: 40px;
+      font-size: 20px;
+    font-family:drakalligro;
+}
+
+.experience_text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    background-color: bisque;
+    border-color: black;
+    border-radius: 40px;
+}
+
+.experience_images{
+    display: flex;
+    align-content: space-between;
+    gap: 0px;
+    flex-wrap: wrap;
+    padding: 50px;
+}
