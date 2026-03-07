@@ -6,13 +6,36 @@
     font-family:drakalligro;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  background-color:bisque;
+  border-radius: 40px;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 40px;
+}
+
+li a:hover {
+  background-color:green;
+  color: white;
+}
+
 .experience{
     display: flex;
-    padding-right: 685px;
+    padding-right: 700px;
+    align-content: space-evenly;
     background-color: black;
     border-radius: 40px;
       font-size: 20px;
     font-family:drakalligro;
+     border-bottom-right-radius: 0;
 }
 
 .experience_text{
@@ -23,7 +46,7 @@
     font-size: 20px;
     background-color: bisque;
     border-color: black;
-    border-radius: 40px;
+   
 }
 
 .experience_images{
@@ -32,4 +55,35 @@
     gap: 0px;
     flex-wrap: wrap;
     padding: 50px;
+   
+}
+
+.interest{
+     display: flex;
+    padding-right: 700px;
+    background-color: black;
+    border-radius: 40px;
+      font-size: 20px;
+    font-family:drakalligro;
+     border-top-right-radius: 0;
+}
+
+.interest_text{
+     display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 66.5px;
+    font-size: 20px;
+    background-color: bisque;
+    border-color: black;
+    
+}
+
+.interest_images{
+    display: flex;
+    align-content: space-between;
+    gap: 0px;
+    flex-wrap: wrap;
+    padding: 50px;
+   
 }
