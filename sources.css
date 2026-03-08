@@ -1,0 +1,36 @@
+.header{
+    font-family: drakalligro;
+    font-size: 20px;
+}
+
+.about_me{
+    font-family: drakalligro;
+    font-size: 20px;
+    
+}
+
+.past_works{
+    font-family: drakalligro;
+    font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  background-color:bisque;
+  border-radius: 40px;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 40px;
+}
+
+li a:hover {
+  background-color:green;
+  color: white;
+}
