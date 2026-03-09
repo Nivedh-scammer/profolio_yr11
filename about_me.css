@@ -56,6 +56,7 @@ li a:hover {
     flex-wrap: wrap;
     padding: 50px;
     padding-left: 450px;
+    
    
 }
 
@@ -67,6 +68,7 @@ li a:hover {
       font-size: 20px;
     font-family:drakalligro;
      border-top-right-radius: 0;
+    
 }
 
 .interest_text{
@@ -83,8 +85,9 @@ li a:hover {
 .interest_images{
     display: flex;
     align-content: space-between;
-    gap: 0px;
+    gap: 50px;
     flex-wrap: wrap;
     padding: 50px;
-   padding-left: 450px;
+    padding-left: 450px;
+   
 }
