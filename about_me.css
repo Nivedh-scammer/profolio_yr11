@@ -55,6 +55,7 @@ li a:hover {
     gap: 0px;
     flex-wrap: wrap;
     padding: 50px;
+    padding-left: 450px;
    
 }
 
@@ -85,5 +86,5 @@ li a:hover {
     gap: 0px;
     flex-wrap: wrap;
     padding: 50px;
-   
+   padding-left: 450px;
 }
