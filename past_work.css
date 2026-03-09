@@ -22,16 +22,18 @@
 }
 
 .python{
+    display: flex;
     align-content: center;
     padding:10px;
-    display: flex;
+    
 }
 
 .code{
+    display: flex;
     padding: 10px;
     padding-left: 700px;
     align-content: center;
-    display: flex;
+    
 }
 
 ul {
